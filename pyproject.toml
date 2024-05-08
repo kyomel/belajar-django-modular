@@ -1,0 +1,15 @@
+[project]
+name = "django_hello_world"
+version = "0.1.0"
+description = "Belajar Django Modular"
+authors = [
+    {name = "KyoMel", email = "michaellapandio04@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
