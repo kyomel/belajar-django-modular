@@ -12,6 +12,9 @@ requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
 
+[tool.pdm.scripts]
+dev = "pdm run src/manage.py runserver"
+
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
